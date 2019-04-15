@@ -13,18 +13,36 @@ ColorFERET
 
 
 """
+#standard packages
 
-import torch
-import torchvision
-import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 import numpy as np
 import torch.nn as nn
+import seaborn as sb
+import pandas as pd
+
+
+
+#pyTorch Packages
+import torch
+import torchvision.transforms as transforms
+from torch.utils.data import Dataset
 from torch.autograd import Variable
+import torch.nn.functional as F
+import torchvision
+from torchvision import datasets, transforms, models
+
+
+
+#other packages
+
 import glob
 from PIL import Image
-from torch.utils.data import Dataset
 import requests
+import cv2
+import xml
+import untangle
+import json
 
 # --------------------------------------------------------------------------------------------
 
