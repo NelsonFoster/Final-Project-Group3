@@ -1,3 +1,20 @@
+
+"""
+24 April 2019
+
+@author: Darius Bailey | Nelson Foster
+DATS 6203-11
+Machine Learning II
+
+Final Project
+
+YaleFace
+
+
+"""
+# --------------------------------------------------------------------------------------------
+#importing libraries
+# --------------------------------------------------------------------------------------------
 import glob
 import cv2
 import matplotlib.pyplot as plt
@@ -12,9 +29,14 @@ import numpy as np
 from torch.autograd import Variable
 from sklearn.model_selection import train_test_split
 from collections import Counter
-
+# --------------------------------------------------------------------------------------------
+#preparing for GPU use
+# --------------------------------------------------------------------------------------------
 CUDA = torch.cuda.is_available()
 
+# --------------------------------------------------------------------------------------------
+#instantiating a convnet
+# --------------------------------------------------------------------------------------------
 def get_convnet_output_size(network, input_size):
     input_size = input_size
 
@@ -44,8 +66,9 @@ class ConvLayer(nn.Module):
         return self.max_pool2d(x)
         return self.dropout(self.max_pool2d(x))
 
-
+# --------------------------------------------------------------------------------------------
 #Original CNN
+# --------------------------------------------------------------------------------------------
 class FaceModule(nn.Module):
     """Some Information about FaceModule"""
     def __init__(self):
@@ -62,8 +85,9 @@ class FaceModule(nn.Module):
         x = nn.functional.log_softmax(self.fully_connected2(x))
         return x
 
-
+# --------------------------------------------------------------------------------------------
 #Added adittional CNN layer
+# --------------------------------------------------------------------------------------------
 class FaceModule2(nn.Module):
     """Some Information about FaceModule"""
     def __init__(self):
@@ -82,8 +106,9 @@ class FaceModule2(nn.Module):
         x = nn.functional.log_softmax(self.fully_connected2(x))
         return x
 
-
+# --------------------------------------------------------------------------------------------
 #Adding Batch Normalization to the layers
+# --------------------------------------------------------------------------------------------
 class FaceModule3(nn.Module):
     """Some Information about FaceModule"""
     def __init__(self):
@@ -107,8 +132,9 @@ class FaceModule3(nn.Module):
         return x
 
 
-
+# --------------------------------------------------------------------------------------------
 #Adding Batch Normalization to the layers
+# --------------------------------------------------------------------------------------------
 class FaceModule4(nn.Module):
     """Some Information about FaceModule"""
     def __init__(self):
