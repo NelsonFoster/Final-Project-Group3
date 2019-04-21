@@ -53,8 +53,14 @@ face_files = glob.glob('yalefaces/*.*')
 
 # In[8]:
 
+#haarcascadefiles
+#https://github.com/opencv/opencv/tree/master/data/haarcascades
 
-cascadePath = r"/anaconda3/lib/python3.7/site-packages/cv2/data/haarcascade_frontalface_default.xml"
+#Darius
+#cascadePath = r"/anaconda3/lib/python3.7/site-packages/cv2/data/haarcascade_frontalface_default.xml"
+
+#Nelson
+cascadePath = ('nfoster06/anaconda3/pkgs/opencv-4.1.0-py37h0cb0d9f_0/share/opencv4/haarcascades/haarcascade_frontalface_default.xml')
 
 #harcascade helps to crop the faces from the images
 
