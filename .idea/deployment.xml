@@ -5,7 +5,7 @@
       <paths name="gcp">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/ubuntu/final" local="$PROJECT_DIR$/Code" />
+            <mapping deploy="/home/ubuntu/final/Code" local="$PROJECT_DIR$/Code" />
           </mappings>
         </serverdata>
       </paths>
