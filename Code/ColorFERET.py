@@ -28,9 +28,9 @@ from keras import models
 
 #Setting intiial directories
 
-original_dataset_dir = 'images'
+original_dataset_dir = 'colorFERET'
 
-base_dir = 'images_small'
+base_dir = 'colorFERET_small'
 os.mkdir(base_dir)
 
 #train/test/split directories
@@ -600,7 +600,7 @@ history = model.fit_generator(
         validation_data=validation_generator,
         validation_steps=50
 
-model.save('images_small_2.h5')
+model.save('colorFERET_small_2.h5')
 
 
 # --------------------------------------------------------------------------------------------
