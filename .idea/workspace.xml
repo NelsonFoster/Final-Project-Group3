@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef2f991-b5d9-478a-9811-dde174a50e7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/YaleFace Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/YaleFace Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/yalefaces/Readme.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code/YaleFace Model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+            <state relative-caret-position="151">
+              <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
               <folding>
                 <element signature="e#51#62#0" expanded="true" />
               </folding>
@@ -163,7 +163,7 @@
       <workItem from="1554589179566" duration="714000" />
       <workItem from="1555335794133" duration="2336000" />
       <workItem from="1555884491196" duration="215000" />
-      <workItem from="1555884711496" duration="3952000" />
+      <workItem from="1555884711496" duration="4702000" />
     </task>
     <task id="LOCAL-00001" summary="update to work on colorFERET data loading">
       <created>1555336462890</created>
@@ -183,11 +183,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7217000" />
+    <option name="totallyTimeSpent" value="7967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -291,7 +290,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="update to work on colorFERET data loading" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Final_Project_Group3$Q2_2_sol.coverage" NAME="YaleFace Model Coverage Results" MODIFIED="1555889656235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
+    <SUITE FILE_PATH="coverage/Final_Project_Group3$Q2_2_sol.coverage" NAME="YaleFace Model Coverage Results" MODIFIED="1555889991729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Code/Q2_2_sol.py">
@@ -340,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/YaleFace Model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+        <state relative-caret-position="151">
+          <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
           <folding>
             <element signature="e#51#62#0" expanded="true" />
           </folding>
