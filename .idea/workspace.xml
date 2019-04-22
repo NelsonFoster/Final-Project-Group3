@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef2f991-b5d9-478a-9811-dde174a50e7f" name="Default Changelist" comment="update to work on colorFERET data loading">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/yalefaces/Readme.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="4ef2f991-b5d9-478a-9811-dde174a50e7f" name="Default Changelist" comment="update to work on colorFERET data loading" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +161,7 @@
       <workItem from="1554589179566" duration="714000" />
       <workItem from="1555335794133" duration="2336000" />
       <workItem from="1555884491196" duration="215000" />
-      <workItem from="1555884711496" duration="6040000" />
+      <workItem from="1555884711496" duration="6080000" />
     </task>
     <task id="LOCAL-00001" summary="update to work on colorFERET data loading">
       <created>1555336462890</created>
@@ -184,7 +181,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9305000" />
+    <option name="totallyTimeSpent" value="9345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -195,7 +192,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863014" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
