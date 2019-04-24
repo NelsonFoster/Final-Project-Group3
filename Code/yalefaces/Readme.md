@@ -1,4 +1,4 @@
-			The Yale Face Database
+The Yale Face Database
 			----------------------
 
 The database contains 165 GIF images of 15 subjects (subject01, 
@@ -22,10 +22,8 @@ If experimental results are obtained that use images from within the
 database, all publications of these results should acknowledge the use
 of the "Yale Face Database" and cite 
 
-P. Belhumeur, J. Hespanha, D. Kriegman, ÒEigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection,Ó IEEE Transactions on Pattern Analysis and Machine Intelligence, July 1997, pp. 711-720.
+P. Belhumeur, J. Hespanha, D. Kriegman, Ã’Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection,Ã“ IEEE Transactions on Pattern Analysis and Machine Intelligence, July 1997, pp. 711-720.
 
 Without permission from Yale, images
 from within the database cannot be incorporated into a larger database
 which is then publicly distributed.
-
-
